@@ -47,7 +47,7 @@ int main()
     printf("Phone Number \t:");
     printf("%d \n",employees[i].phn);
     
-    printf("Salary \t:")
+    printf("Salary \t:");
     printf("%d \n",employees[i].salary);
     
     printf("\n");
