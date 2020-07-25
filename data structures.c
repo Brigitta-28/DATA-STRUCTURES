@@ -10,10 +10,10 @@ typedef struct{
      
 int main()
 {
-   int i,n=3;
+   int i,n=4;
    
    Employee employees[n];
-   printf("Enter %d Employee Details \n\n\n",n);
+   printf("Enter %d Employee Details \n\n\n\n",n);
    
    for(i=0;i<n;i++)
    {
