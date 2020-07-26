@@ -13,14 +13,14 @@ int main()
    int i,n=4;
    
    Employee employees[n];
-   printf("Enter %d Employee Details \n\n\n\n",n);
+   printf("Enter %d Employee Details \t\t\t\t",n);
    
    for(i=0;i<n;i++)
    {
     printf("Employee %d:- \n",i+1);
     
     printf("Name:");
-    scanf("%s",&employees[i].name);
+    scanf("%s",&employee[i].name);
     
     printf("Age:- ");
     scanf("%d",&employees[i].age);
@@ -39,16 +39,16 @@ int main()
    for(i=0;i<n;i++)
    {
     printf("Name \t:");
-    printf("%s \n",employees[i].name);
+    printf("%s \t",employees[i].name);
     
     printf("Age \t: ");
-    printf("%d \n",employees[i].age);
+    printf("%d \t",employees[i].age);
     
     printf("Phone Number \t:");
-    printf("%d \n",employees[i].phn);
+    printf("%d \t",employees[i].phn);
     
     printf("Salary \t:");
-    printf("%d \n",employees[i].salary);
+    printf("%d \t",employees[i].salary);
     
     printf("\n");
    }
